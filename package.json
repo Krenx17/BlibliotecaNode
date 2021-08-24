@@ -1,0 +1,19 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "La biblioteca cuenta con usuarios y estos pueden asociar libros a su cuenta (cada usuario puede tener libros de su interés prestados).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cespana2016108/BlibliotecaNode.git"
+  },
+  "author": "Carlos España",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cespana2016108/BlibliotecaNode/issues"
+  },
+  "homepage": "https://github.com/cespana2016108/BlibliotecaNode#readme"
+}
