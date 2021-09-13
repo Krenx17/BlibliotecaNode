@@ -2,7 +2,9 @@ const mongoose = require('mongoose')
 var Schema = mongoose.Schema
 
 var BookSchema = Schema({
+    tipo: String,
     autor: String,
+    frecuencia: String,
     titulo: String,
     edicion: String,
     palabrasclave: String,
@@ -11,6 +13,7 @@ var BookSchema = Schema({
     copias: Number,
     disponibles: Number,
     prestado: Number,
+    prestados: Number,
     buscado: Number
 })
 

@@ -10,10 +10,14 @@ var UserSchema = Schema({
     rol: String,
     pass: String,
     historial: [{
-        libro: String
+        _id: false,
+        libro: {type: Schema.Types.ObjectId, ref: 'books'},
+        tipo: String
     }],
     prestados: [{
-        libro: String
+        _id: false,
+        libro: {type: Schema.Types.ObjectId, ref: 'books'},
+        tipo: String
     }]
 })
 
